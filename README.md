@@ -50,8 +50,12 @@ The script will prompt you to enter the location of your CSV file. You can input
 ## Output Files
 After processing, the script generates two CSV files:
 
-- Institutions.csv: Contains unique institutions with IDs.
-- Teams.csv: Contains team details linked to their respective institutions.
+
+- Institutions.csv: Contains information about institutions, including their names, cities, states/provinces, and countries.
+-Teams.csv: Includes details about teams, such as team numbers, advisors, problems, rankings, and corresponding institution IDs.
+-Outstanding_Institutions.csv: Lists institutions that received an 'Outstanding winner' ranking.
+-Top_Institutions.csv: Provides information on top institutions based on the number of teams affiliated with each.
+-US_Teams_Meritorious_or_Better.csv: Contains details about US teams that received a 'Meritorious' ranking or better.
 
 Navigate to results and view results:
 ```bash
